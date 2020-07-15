@@ -51,6 +51,7 @@ img {
 .hamburger:focus,
 .home__cta:active {
     outline: 1px dashed var(--clr-red001);
+    position: fixed;
 }
 
 .hamburger::after,
