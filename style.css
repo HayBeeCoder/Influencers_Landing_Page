@@ -71,12 +71,14 @@ img {
     transform: rotate(45deg);
     margin: -10px;
     background-color: var(--clr-red001);
+    position: fixed;
 }
 
 .hamburger--active::before {
     transform: rotate(-45deg);
     margin: -17px;
     background-color: var(--clr-red001);
+    position: fixed;
 }
 
 .main-nav {
